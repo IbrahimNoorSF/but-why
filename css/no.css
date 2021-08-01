@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+.text{
+    z-index: 0;
+    text-align:center;
+    margin-top: 300px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+}
+.video video{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: .9;
+}
+#button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    color: transparent;
+    text-decoration: none;
+    font-size: 11em;
+}

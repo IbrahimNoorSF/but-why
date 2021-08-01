@@ -1,0 +1,22 @@
+body{
+    background-image: url(../media/woman-mask-stands-by-window.jpg);
+    background-size: cover;
+}
+.text{
+    text-align:center;
+    margin-top: 250px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+}
+#button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    color: transparent;
+    text-decoration: none;
+    font-size: 11em;
+}
